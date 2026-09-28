@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Resume of S. Nithyadevi, Software Engineer at Capgemini.">
+  <title>S. Nithyadevi | Resume</title>
+  <style>
+    :root { color-scheme: light; --ink: #172338; --muted: #53647a; --blue: #2866a7; --line: #d8e1eb; --soft: #eff4f8; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #e8edf2; color: var(--ink); font: 10pt/1.48 Arial, Helvetica, sans-serif; }
+    .toolbar { position: sticky; z-index: 2; top: 0; display: flex; justify-content: center; gap: 10px; padding: 12px; background: rgba(20, 33, 51, .94); }
+    .toolbar a, .toolbar button { display: inline-flex; min-height: 38px; align-items: center; justify-content: center; padding: 0 15px; border: 1px solid rgba(255,255,255,.24); border-radius: 3px; color: #f5f8fc; background: transparent; font: 600 12px Arial, sans-serif; text-decoration: none; cursor: pointer; }
+    .toolbar button { border-color: #75a9de; background: #2866a7; }
+    .resume { width: min(210mm, calc(100% - 36px)); min-height: 297mm; margin: 28px auto; padding: 18mm 19mm; background: #fff; box-shadow: 0 12px 42px rgba(19, 34, 54, .15); }
+    header { padding-bottom: 15px; border-bottom: 2px solid var(--ink); }
+    h1 { margin: 0; font-size: 26pt; line-height: 1.1; letter-spacing: -.5px; }
+    .role { margin: 5px 0 9px; color: var(--blue); font-size: 12pt; font-weight: 700; }
+    .contact-line { display: flex; flex-wrap: wrap; gap: 4px 14px; color: var(--muted); font-size: 9pt; }
+    a { color: var(--blue); text-decoration: none; }
+    section { margin-top: 14px; break-inside: avoid; }
+    h2 { display: flex; align-items: center; gap: 9px; margin: 0 0 7px; color: var(--blue); font-size: 10pt; letter-spacing: .9px; text-transform: uppercase; }
+    h2::after { height: 1px; flex: 1; background: var(--line); content: ""; }
+    p { margin: 0; color: #33445a; }
+    .summary { font-size: 9.5pt; }
+    .skills { display: grid; grid-template-columns: 1fr 1fr; gap: 5px 18px; }
+    .skill-row { color: #34465c; font-size: 8.8pt; }
+    .skill-row strong { color: var(--ink); }
+    .entry { display: grid; grid-template-columns: 1fr auto; gap: 3px 12px; margin-top: 8px; }
+    .entry:first-of-type { margin-top: 0; }
+    .entry-title { font-weight: 700; }
+    .entry-date { color: var(--muted); font-size: 8.5pt; text-align: right; }
+    .entry-subtitle { grid-column: 1 / -1; color: var(--muted); font-size: 9pt; }
+    ul { margin: 5px 0 0; padding-left: 17px; color: #33445a; }
+    li { margin: 2px 0; padding-left: 1px; }
+    .project-list { display: grid; grid-template-columns: 1fr 1fr; gap: 7px 20px; }
+    .project { break-inside: avoid; }
+    .project strong { display: block; font-size: 8.8pt; }
+    .project p { color: var(--muted); font-size: 8pt; line-height: 1.4; }
+    .compact-list { display: grid; grid-template-columns: 1fr 1fr; gap: 3px 20px; margin-top: 2px; }
+    .compact-list p { padding-left: 10px; color: #33445a; font-size: 8.5pt; }
+    .compact-list p::before { margin-left: -10px; color: var(--blue); content: "• "; }
+    .note { margin-top: 12px; padding-top: 8px; border-top: 1px solid var(--line); color: #718096; font-size: 7.5pt; }
+    @media (max-width: 650px) {
+      body { background: #fff; }
+      .resume { width: 100%; min-height: 0; margin: 0; padding: 25px 22px 35px; box-shadow: none; }
+      h1 { font-size: 23pt; }
+      .skills, .project-list, .compact-list { grid-template-columns: 1fr; }
+      .entry-date { font-size: 8pt; }
+    }
+    @page { size: A4; margin: 15mm; }
+    @media print {
+      body { background: #fff; font-size: 9pt; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+      .toolbar { display: none; }
+      .resume { width: auto; min-height: 0; margin: 0; padding: 0; box-shadow: none; }
+      header { padding-bottom: 11px; }
+      h1 { font-size: 23pt; }
+      section { margin-top: 10px; }
+      .project-list { gap: 5px 16px; }
+      .project p { font-size: 7.6pt; }
+      .skills, .project-list, .compact-list { grid-template-columns: 1fr 1fr; }
+      a { color: inherit; }
+    }
+  </style>
+</head>
+<body>
+  <div class="toolbar" aria-label="Resume actions">
+    <a href="index.html">Return to portfolio</a>
+    <button type="button" onclick="window.print()">Print / Save as PDF</button>
+  </div>
+  <main class="resume">
+    <header>
+      <h1>S. Nithyadevi</h1>
+      <p class="role">Software Engineer · Capgemini</p>
+      <div class="contact-line">
+        <span>Bangalore, Karnataka, India</span>
+        <a href="mailto:nithyadevishanmugasundaram20042@gmail.com">nithyadevishanmugasundaram20042@gmail.com</a>
+      </div>
+    </header>
+
+    <section aria-labelledby="profile-heading">
+      <h2 id="profile-heading">Professional Profile</h2>
+      <p class="summary">Software Engineer focused on OneStream, business intelligence, financial reporting, and analytics. Interested in turning business requirements into clear reporting, useful dashboards, and user-friendly digital experiences.</p>
+    </section>
+
+    <section aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Skills</h2>
+      <div class="skills">
+        <p class="skill-row"><strong>Analytics &amp; BI:</strong> OneStream, Power BI, SQL, DAX, Power Query, Data Analytics, Business Intelligence, Data Visualization, Dashboard Development, Reporting</p>
+        <p class="skill-row"><strong>Platforms:</strong> Power BI, Tableau, Qlik</p>
+        <p class="skill-row"><strong>Design:</strong> Figma, UI/UX Design, UI Design, UX Design, Wireframing, Prototyping</p>
+        <p class="skill-row"><strong>Programming:</strong> Python (Basic)</p>
+        <p class="skill-row"><strong>Tools:</strong> Git, GitHub, Excel, Microsoft Office</p>
+        <p class="skill-row"><strong>Foundations:</strong> ETL &amp; ELT basics</p>
+      </div>
+    </section>
+
+    <section aria-labelledby="experience-heading">
+      <h2 id="experience-heading">Professional Experience</h2>
+      <div class="entry">
+        <div class="entry-title">Software Engineer · Capgemini</div>
+        <div class="entry-date">Current</div>
+        <div class="entry-subtitle">Bangalore, Karnataka, India</div>
+      </div>
+      <ul>
+        <li>Contribute to enterprise solutions and business-focused data initiatives.</li>
+        <li>Learn and implement OneStream solutions for planning and reporting workflows.</li>
+        <li>Support analytics, business intelligence, and reporting initiatives.</li>
+        <li>Collaborate with cross-functional teams to understand requirements and deliver data solutions.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="training-heading">
+      <h2 id="training-heading">Professional Training</h2>
+      <div class="entry">
+        <div class="entry-title">Core BI Training · Capgemini</div>
+        <div class="entry-date">2 months</div>
+        <div class="entry-subtitle">Hands-on training in SQL, Power BI, Tableau, Qlik, ETL &amp; ELT basics, Python basics, and OneStream; exposure to Qlik-to-Power BI migration.</div>
+      </div>
+    </section>
+
+    <section aria-labelledby="education-heading">
+      <h2 id="education-heading">Education</h2>
+      <div class="entry"><div class="entry-title">B.E. Electronics and Communication Engineering</div><div class="entry-date">2025</div><div class="entry-subtitle">Sona College of Technology · CGPA: 8.7</div></div>
+      <div class="entry"><div class="entry-title">Diploma in Electronics and Communication Engineering</div><div class="entry-date">2022</div><div class="entry-subtitle">Thiagarajar Polytechnic College · 94.5%</div></div>
+      <div class="entry"><div class="entry-title">SSLC</div><div class="entry-date">2019</div><div class="entry-subtitle">Jayarani Matriculation Higher Secondary School · 85%</div></div>
+    </section>
+
+    <section aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Selected Projects</h2>
+      <div class="project-list">
+        <article class="project"><strong>Human Resource Analytics Dashboard</strong><p>Attrition, employee satisfaction, and training impact; Power Query modelling, DAX, role-level security, and Power BI Service deployment.</p></article>
+        <article class="project"><strong>Weather Analysis Dashboard</strong><p>Live weather API reporting for temperature, sunrise/sunset, rain probability, air quality, and multiple cities.</p></article>
+        <article class="project"><strong>Uber Trip Analysis Dashboard</strong><p>Ride volumes, peak hours, driver performance, customer ratings, revenue, and cancellations using Power Query and DAX.</p></article>
+        <article class="project"><strong>Coffee Sales Dashboard</strong><p>Revenue, sales trends, product performance, customer behavior, interactive filters, and executive KPIs.</p></article>
+        <article class="project"><strong>Bank Analytics Dashboard</strong><p>Loan recovery, NPA monitoring, financial KPIs, fraud detection, and risk analytics.</p></article>
+        <article class="project"><strong>OTT Platform Dashboard</strong><p>Subscribers, content performance, watch time, revenue, and geographic trends.</p></article>
+        <article class="project"><strong>Instagram UI Recreation</strong><p>Responsive Figma interface with a modern UI and interactive prototype.</p></article>
+        <article class="project"><strong>WhatsApp UI Recreation</strong><p>Mobile chat prototype focused on user experience and interactive navigation.</p></article>
+        <article class="project"><strong>TranquilPath · Fashion Storefront Website</strong><p>Responsive HTML, CSS, and JavaScript storefront with product search, mobile navigation, and contact form.</p></article>
+      </div>
+    </section>
+
+    <section aria-labelledby="academic-heading">
+      <h2 id="academic-heading">Academic Projects &amp; Recognition</h2>
+      <div class="compact-list">
+        <p>Distance Measurement and Braking System</p>
+        <p>Automatic Agriculture Robot</p>
+        <p>Food Ordering System Using Java</p>
+        <p>Wallace Tree Multiplier Using Kogge Stone Adder</p>
+        <p>Appreciation Award · 2023–2024</p>
+        <p>NCC A Grade Holder · 2020</p>
+        <p>Artwork published in college newsletter · 2023</p>
+      </div>
+    </section>
+    <p class="note">Portfolio: S. Nithyadevi · Transforming Data into Insights and Ideas into User Experiences</p>
+  </main>
+</body>
+</html>
