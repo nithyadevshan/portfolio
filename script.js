@@ -115,7 +115,7 @@
   };
 
   // Set this to the portfolio owner's email to enable the mail-app form handoff.
-  const contactEmail = "nithyadevishanmugasundaram2004@gmail.com";
+  const contactEmail = "nithyashanmugasundaram28@gmail.com";
 
   const currentYear = document.querySelector("#current-year");
   if (currentYear) currentYear.textContent = String(new Date().getFullYear());
