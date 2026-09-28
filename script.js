@@ -21,7 +21,7 @@
       impact: "Helps HR teams identify workforce trends, strengthen retention strategies, and make informed decisions using current reporting.",
       features: ["Headcount analysis", "Attrition monitoring", "Employee satisfaction", "Promotion readiness", "Gender diversity insights", "Workforce distribution", "Power Query data modeling", "DAX calculations", "Role-level security", "Power BI Service deployment"],
       tools: ["Power BI", "DAX", "Power Query", "Data Modeling", "RLS"],
-      screenshots: ["assets/hr-analytics-dashboard.png"]
+      screenshots: ["hr-analytics-dashboard.png"]
     },
     weather: {
       title: "Weather Analysis Dashboard",
@@ -32,7 +32,7 @@
       impact: "Provides real-time weather and environmental insights with forecast visibility to support informed planning and decision-making.",
       features: ["Live temperature monitoring", "Weather forecast analysis", "Air quality monitoring", "Sunrise and sunset tracking", "Rain probability analysis", "Wind and humidity monitoring", "Multi-city comparison"],
       tools: ["Power BI", "Weather API", "DAX", "Power Query"],
-      screenshots: ["assets/weather-analysis-dashboard.png"]
+      screenshots: ["weather-analysis-dashboard.png"]
     },
     uber: {
       title: "Uber Trip Analysis Dashboard",
@@ -43,7 +43,7 @@
       impact: "Improved operational visibility and decision-making while clarifying customer demand and ride-sharing performance patterns.",
       features: ["Booking trend analysis", "Revenue monitoring", "Trip distance analysis", "Vehicle performance tracking", "Payment method analysis", "Demand pattern identification", "Location-based analytics", "Interactive KPI monitoring"],
       tools: ["Power BI", "DAX", "Power Query", "Data Modeling"],
-      screenshots: ["assets/uber-trip-analysis-dashboard.png"]
+      screenshots: ["uber-trip-analysis-dashboard.png"]
     },
     coffee: {
       title: "Coffee Shop Sales Dashboard",
@@ -55,7 +55,7 @@
       impact: "Supports sales strategy, best-seller discovery, peak-hour staffing decisions, store monitoring, and business planning.",
       features: ["Total sales and orders", "Average order value", "Best-selling product", "Top performing store", "Peak sales hour", "Interactive filters", "Sales trend analysis", "Store comparison", "Product category analysis", "Customer insights", "Revenue monitoring"],
       tools: ["Power BI", "DAX", "Power Query"],
-      screenshots: ["assets/coffee-shop-dashboard.png"]
+      screenshots: ["coffee-shop-dashboard.png"]
     },
     ott: {
       title: "OTT Platform Analytics Dashboard",
@@ -66,7 +66,7 @@
       impact: "Provided actionable insights into content trends and audience preferences to support content strategy and performance analysis.",
       features: ["Movies vs. series analysis", "IMDb rating insights", "Genre performance analysis", "Yearly release trends", "Awards tracking", "Viewer rating distribution", "Show duration analysis", "Interactive filtering"],
       tools: ["Power BI", "DAX", "Power Query", "Data Modeling"],
-      screenshots: ["assets/ott-platform-dashboard.png"]
+      screenshots: ["ott-platform-dashboard.png"]
     },
     tranquil: {
       title: "TranquilPath – Fashion Storefront Website",
@@ -77,7 +77,7 @@
       impact: "Enhanced the customer browsing experience with a responsive, visually appealing fashion storefront.",
       features: ["Responsive design", "Fashion product showcase", "Real-time product search", "Mobile navigation menu", "Contact form", "Google Fonts", "Font Awesome icons", "Future scope: cart, payments, authentication, and database"],
       tools: ["HTML5", "CSS3", "JavaScript", "Font Awesome", "Google Fonts"],
-      screenshots: ["assets/tranquilpath-fashion-storefront.png"]
+      screenshots: ["tranquilpath-fashion-storefront.png"]
     },
     banking: {
       title: "Banking Analytics Dashboard",
@@ -88,7 +88,7 @@
       impact: "Provided visibility into banking operations to help stakeholders improve risk management, recovery performance, and decision-making.",
       features: ["Loan recovery analysis", "NPA monitoring", "Fraud detection insights", "Financial KPI tracking", "Branch performance analysis", "Risk analysis", "Interactive reporting"],
       tools: ["Power BI", "DAX", "Power Query", "Data Modeling"],
-      screenshots: ["assets/banking-analytics-dashboard.png"]
+      screenshots: ["banking-analytics-dashboard.png"]
     },
     instagram: {
       title: "Instagram UI Recreation",
@@ -99,7 +99,7 @@
       impact: "Demonstrates a consistent mobile experience and connected navigation across the main user journeys.",
       features: ["Responsive design", "Modern UI", "Interactive prototype", "Clean user experience"],
       tools: ["Figma", "UI design", "UX design", "Prototyping"],
-      screenshots: ["assets/instagram-ui-flow.png"]
+      screenshots: ["instagram-ui-flow.png"]
     },
     whatsapp: {
       title: "WhatsApp UI Recreation",
@@ -110,7 +110,7 @@
       impact: "Makes the app journey and key interaction states easy to review as one connected product flow.",
       features: ["Chat interface", "Modern design", "User experience optimization", "Interactive navigation"],
       tools: ["Figma", "UI design", "UX design", "Prototyping"],
-      screenshots: ["assets/whatsapp-ui.png"]
+      screenshots: ["whatsapp-ui.png"]
     }
   };
 
